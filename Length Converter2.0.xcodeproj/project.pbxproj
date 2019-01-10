@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBC90EB921DE64EF00FA9DF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC90EB821DE64EF00FA9DF5 /* AppDelegate.swift */; };
+		EBC90EBB21DE64EF00FA9DF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC90EBA21DE64EF00FA9DF5 /* ViewController.swift */; };
+		EBC90EBE21DE64EF00FA9DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC90EBC21DE64EF00FA9DF5 /* Main.storyboard */; };
+		EBC90EC021DE64F000FA9DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC90EBF21DE64F000FA9DF5 /* Assets.xcassets */; };
+		EBC90EC321DE64F000FA9DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC90EC121DE64F000FA9DF5 /* LaunchScreen.storyboard */; };
+		EBC90ECE21DE64F000FA9DF5 /* Length_Converter2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC90ECD21DE64F000FA9DF5 /* Length_Converter2_0Tests.swift */; };
+		EBC90ED921DE64F000FA9DF5 /* Length_Converter2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC90ED821DE64F000FA9DF5 /* Length_Converter2_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBC90ECA21DE64F000FA9DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBC90EAD21DE64EF00FA9DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC90EB421DE64EF00FA9DF5;
+			remoteInfo = "Length Converter2.0";
+		};
+		EBC90ED521DE64F000FA9DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBC90EAD21DE64EF00FA9DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC90EB421DE64EF00FA9DF5;
+			remoteInfo = "Length Converter2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBC90EB521DE64EF00FA9DF5 /* Length Converter2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Length Converter2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC90EB821DE64EF00FA9DF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBC90EBA21DE64EF00FA9DF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBC90EBD21DE64EF00FA9DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBC90EBF21DE64F000FA9DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBC90EC221DE64F000FA9DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBC90EC421DE64F000FA9DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC90EC921DE64F000FA9DF5 /* Length Converter2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Length Converter2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC90ECD21DE64F000FA9DF5 /* Length_Converter2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Length_Converter2_0Tests.swift; sourceTree = "<group>"; };
+		EBC90ECF21DE64F000FA9DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC90ED421DE64F000FA9DF5 /* Length Converter2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Length Converter2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC90ED821DE64F000FA9DF5 /* Length_Converter2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Length_Converter2_0UITests.swift; sourceTree = "<group>"; };
+		EBC90EDA21DE64F000FA9DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBC90EB221DE64EF00FA9DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC90EC621DE64F000FA9DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC90ED121DE64F000FA9DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBC90EAC21DE64EF00FA9DF5 = {
+			isa = PBXGroup;
+			children = (
+				EBC90EB721DE64EF00FA9DF5 /* Length Converter2.0 */,
+				EBC90ECC21DE64F000FA9DF5 /* Length Converter2.0Tests */,
+				EBC90ED721DE64F000FA9DF5 /* Length Converter2.0UITests */,
+				EBC90EB621DE64EF00FA9DF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBC90EB621DE64EF00FA9DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC90EB521DE64EF00FA9DF5 /* Length Converter2.0.app */,
+				EBC90EC921DE64F000FA9DF5 /* Length Converter2.0Tests.xctest */,
+				EBC90ED421DE64F000FA9DF5 /* Length Converter2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBC90EB721DE64EF00FA9DF5 /* Length Converter2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				EBC90EB821DE64EF00FA9DF5 /* AppDelegate.swift */,
+				EBC90EBA21DE64EF00FA9DF5 /* ViewController.swift */,
+				EBC90EBC21DE64EF00FA9DF5 /* Main.storyboard */,
+				EBC90EBF21DE64F000FA9DF5 /* Assets.xcassets */,
+				EBC90EC121DE64F000FA9DF5 /* LaunchScreen.storyboard */,
+				EBC90EC421DE64F000FA9DF5 /* Info.plist */,
+			);
+			path = "Length Converter2.0";
+			sourceTree = "<group>";
+		};
+		EBC90ECC21DE64F000FA9DF5 /* Length Converter2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EBC90ECD21DE64F000FA9DF5 /* Length_Converter2_0Tests.swift */,
+				EBC90ECF21DE64F000FA9DF5 /* Info.plist */,
+			);
+			path = "Length Converter2.0Tests";
+			sourceTree = "<group>";
+		};
+		EBC90ED721DE64F000FA9DF5 /* Length Converter2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBC90ED821DE64F000FA9DF5 /* Length_Converter2_0UITests.swift */,
+				EBC90EDA21DE64F000FA9DF5 /* Info.plist */,
+			);
+			path = "Length Converter2.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBC90EB421DE64EF00FA9DF5 /* Length Converter2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC90EDD21DE64F000FA9DF5 /* Build configuration list for PBXNativeTarget "Length Converter2.0" */;
+			buildPhases = (
+				EBC90EB121DE64EF00FA9DF5 /* Sources */,
+				EBC90EB221DE64EF00FA9DF5 /* Frameworks */,
+				EBC90EB321DE64EF00FA9DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Length Converter2.0";
+			productName = "Length Converter2.0";
+			productReference = EBC90EB521DE64EF00FA9DF5 /* Length Converter2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBC90EC821DE64F000FA9DF5 /* Length Converter2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC90EE021DE64F000FA9DF5 /* Build configuration list for PBXNativeTarget "Length Converter2.0Tests" */;
+			buildPhases = (
+				EBC90EC521DE64F000FA9DF5 /* Sources */,
+				EBC90EC621DE64F000FA9DF5 /* Frameworks */,
+				EBC90EC721DE64F000FA9DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC90ECB21DE64F000FA9DF5 /* PBXTargetDependency */,
+			);
+			name = "Length Converter2.0Tests";
+			productName = "Length Converter2.0Tests";
+			productReference = EBC90EC921DE64F000FA9DF5 /* Length Converter2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBC90ED321DE64F000FA9DF5 /* Length Converter2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC90EE321DE64F000FA9DF5 /* Build configuration list for PBXNativeTarget "Length Converter2.0UITests" */;
+			buildPhases = (
+				EBC90ED021DE64F000FA9DF5 /* Sources */,
+				EBC90ED121DE64F000FA9DF5 /* Frameworks */,
+				EBC90ED221DE64F000FA9DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC90ED621DE64F000FA9DF5 /* PBXTargetDependency */,
+			);
+			name = "Length Converter2.0UITests";
+			productName = "Length Converter2.0UITests";
+			productReference = EBC90ED421DE64F000FA9DF5 /* Length Converter2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBC90EAD21DE64EF00FA9DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ernesto Rodrigues";
+				TargetAttributes = {
+					EBC90EB421DE64EF00FA9DF5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EBC90EC821DE64F000FA9DF5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EBC90EB421DE64EF00FA9DF5;
+					};
+					EBC90ED321DE64F000FA9DF5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EBC90EB421DE64EF00FA9DF5;
+					};
+				};
+			};
+			buildConfigurationList = EBC90EB021DE64EF00FA9DF5 /* Build configuration list for PBXProject "Length Converter2.0" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBC90EAC21DE64EF00FA9DF5;
+			productRefGroup = EBC90EB621DE64EF00FA9DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBC90EB421DE64EF00FA9DF5 /* Length Converter2.0 */,
+				EBC90EC821DE64F000FA9DF5 /* Length Converter2.0Tests */,
+				EBC90ED321DE64F000FA9DF5 /* Length Converter2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBC90EB321DE64EF00FA9DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC90EC321DE64F000FA9DF5 /* LaunchScreen.storyboard in Resources */,
+				EBC90EC021DE64F000FA9DF5 /* Assets.xcassets in Resources */,
+				EBC90EBE21DE64EF00FA9DF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC90EC721DE64F000FA9DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC90ED221DE64F000FA9DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBC90EB121DE64EF00FA9DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC90EBB21DE64EF00FA9DF5 /* ViewController.swift in Sources */,
+				EBC90EB921DE64EF00FA9DF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC90EC521DE64F000FA9DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC90ECE21DE64F000FA9DF5 /* Length_Converter2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC90ED021DE64F000FA9DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC90ED921DE64F000FA9DF5 /* Length_Converter2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBC90ECB21DE64F000FA9DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBC90EB421DE64EF00FA9DF5 /* Length Converter2.0 */;
+			targetProxy = EBC90ECA21DE64F000FA9DF5 /* PBXContainerItemProxy */;
+		};
+		EBC90ED621DE64F000FA9DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBC90EB421DE64EF00FA9DF5 /* Length Converter2.0 */;
+			targetProxy = EBC90ED521DE64F000FA9DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBC90EBC21DE64EF00FA9DF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC90EBD21DE64EF00FA9DF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBC90EC121DE64F000FA9DF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC90EC221DE64F000FA9DF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBC90EDB21DE64F000FA9DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBC90EDC21DE64F000FA9DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBC90EDE21DE64F000FA9DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Length Converter2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuny.bmcc.Length-Converter2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBC90EDF21DE64F000FA9DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Length Converter2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuny.bmcc.Length-Converter2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBC90EE121DE64F000FA9DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Length Converter2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuny.bmcc.Length-Converter2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Length Converter2.0.app/Length Converter2.0";
+			};
+			name = Debug;
+		};
+		EBC90EE221DE64F000FA9DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Length Converter2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuny.bmcc.Length-Converter2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Length Converter2.0.app/Length Converter2.0";
+			};
+			name = Release;
+		};
+		EBC90EE421DE64F000FA9DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Length Converter2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuny.bmcc.Length-Converter2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Length Converter2.0";
+			};
+			name = Debug;
+		};
+		EBC90EE521DE64F000FA9DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Length Converter2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuny.bmcc.Length-Converter2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Length Converter2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBC90EB021DE64EF00FA9DF5 /* Build configuration list for PBXProject "Length Converter2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC90EDB21DE64F000FA9DF5 /* Debug */,
+				EBC90EDC21DE64F000FA9DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC90EDD21DE64F000FA9DF5 /* Build configuration list for PBXNativeTarget "Length Converter2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC90EDE21DE64F000FA9DF5 /* Debug */,
+				EBC90EDF21DE64F000FA9DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC90EE021DE64F000FA9DF5 /* Build configuration list for PBXNativeTarget "Length Converter2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC90EE121DE64F000FA9DF5 /* Debug */,
+				EBC90EE221DE64F000FA9DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC90EE321DE64F000FA9DF5 /* Build configuration list for PBXNativeTarget "Length Converter2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC90EE421DE64F000FA9DF5 /* Debug */,
+				EBC90EE521DE64F000FA9DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBC90EAD21DE64EF00FA9DF5 /* Project object */;
+}
